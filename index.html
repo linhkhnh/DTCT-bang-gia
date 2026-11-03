@@ -91,8 +91,62 @@ ul.in{margin:0;padding:0}
 .in li b{display:block;font-size:13.5px;font-weight:600;line-height:1.4}.in li span{display:block;font-size:12.5px;color:var(--ink2);margin-top:2px}
 .pc{background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:10px;font-size:12.5px;color:var(--ink2)}
 .pc h4{margin:0 0 3px;font-size:13.5px;color:var(--ink)}.pc p{margin:0}.pc p+p{margin-top:4px}.pc p b{color:var(--brand);font-weight:600}
+.ctas{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}@media(max-width:760px){.ctas{grid-template-columns:minmax(0,1fr)}}
+.cta.alt{background:#fff;color:var(--brand);box-shadow:inset 0 0 0 1.5px var(--brand)}.cta.alt:hover{background:var(--b50)}.cta.alt span{color:var(--ink2)}.cta.alt em{background:var(--brand);color:#fff}
+.seg button.cur{border-color:var(--ink);color:var(--ink);font-weight:600}
+.seg.sm button{padding:3px 10px;font-size:12px}
+.lbl{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--ink3);font-weight:600;margin:0 0 8px}
+.hmd{font-size:12.5px;color:var(--ink2);margin:8px 0 10px}.pdesc{font-size:12px;color:var(--ink3);margin:6px 0 10px}
+.hint{font-size:12px;color:var(--ink3);margin:8px 0 10px}
+.in li.it,.in li[data-id]{cursor:pointer}.in li[data-id]:hover,.in li.act{border-color:var(--brand);background:var(--b50)}
+.in .lh{display:flex;gap:8px;align-items:flex-start}.in .lh em,.hl em{flex:none;font-style:normal;font-size:11px;font-weight:700;color:var(--brand);background:var(--b100);border-radius:6px;padding:1px 6px;margin-top:1px}
+.in li .tg{display:inline-block;font-size:10.5px;color:var(--ink3);border:1px solid var(--line);background:#fff;border-radius:40px;padding:0 7px;margin:4px 0 0 32px}
+#ins li>span{margin-left:32px}
+.sbs{margin:8px 0 0 32px;display:grid;gap:6px}
+.sb{background:#fff;border:1.5px solid var(--line);border-radius:10px;padding:7px 10px;transition:border-color .15s}
+.sb:hover,.sb.act{border-color:var(--brand)}.sb b{font-size:12.5px!important;display:inline!important}.sb i{font-style:normal;font-size:11.5px;color:var(--ink3);margin-left:6px}.sb span{font-size:12px!important}
+.lks{display:flex;flex-wrap:wrap;gap:5px;margin:7px 0 0 32px}.sb .lks{margin-left:0}
+.lk,.ev{border:0;background:var(--brand);color:#fff;border-radius:40px;padding:2px 9px;font:inherit;font-size:11.5px;font-weight:500;cursor:pointer}.lk:hover,.ev:hover{background:var(--brand-d)}
+.ev{background:#fff;color:var(--brand);box-shadow:inset 0 0 0 1px var(--b200);padding:1px 8px;font-size:11px}.ev:hover{background:var(--b50)}
+.pn{display:grid;gap:14px}.pn>*{min-width:0}
+.hl{display:flex;gap:10px;align-items:flex-start;background:linear-gradient(110deg,#fff 50%,var(--b50));border-radius:14px;padding:12px 14px;border:1px solid var(--b100)}.hl b{display:block;font-size:15px;line-height:1.4}.hl span{display:block;font-size:13px;color:var(--ink2);margin-top:3px}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}@media(max-width:760px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.kpi{background:var(--bg);border-radius:14px;padding:12px 14px;border:1.5px solid transparent;transition:border-color .15s}.kpi.gl{border-color:var(--brand);background:var(--b50)}
+.kpi b{display:block;font-size:22px;color:var(--brand);line-height:1.2}.kpi span{display:block;font-size:12px;color:var(--ink2);margin-top:2px}.kpi small{display:block;font-size:11px;color:var(--ink3);margin-top:2px}
+svg.sc{width:100%;height:auto;display:block;margin-top:8px}.sc .gx{stroke:#ECECEF}.sc text{font-size:11px;fill:var(--ink3)}.sc .nm{font-size:12px;font-weight:600}.sc .vl{font-size:11.5px;font-weight:700;paint-order:stroke;stroke:#fff;stroke-width:3px}
+.nt{font-size:11.5px;margin:6px 0 0}.cc{background:var(--b50);border-color:var(--b100)}.cc p{color:var(--ink)}
+.cmp{display:grid;grid-template-columns:150px minmax(0,1fr) 22px minmax(0,1fr);gap:10px;align-items:start;padding:12px;border-radius:12px;border:1.5px solid transparent;transition:border-color .15s,background .15s}
+.cmp+.cmp{border-top:1px dashed var(--line)}.cmp.gl{border-color:var(--brand);background:var(--b50)}
+.cmp h4{margin:0;font-size:13.5px}.cmp p{margin:0;font-size:12.5px;color:var(--ink2)}.cmp .y26 p{color:var(--ink)}.cmp .ar{color:var(--ink3);font-weight:700;padding-top:14px;text-align:center}
+.cmp .yr{display:block;font-size:10.5px;font-weight:600;letter-spacing:.07em;color:var(--ink3);margin-bottom:2px}
+.cmp.hd2 {padding:0 12px}.cmp.hd2 .yr{margin:0}
+@media(max-width:760px){.cmp{grid-template-columns:minmax(0,1fr)}.cmp .ar{display:none}.cmp.hd2{display:none}}
+.bd{display:inline-block;font-size:10.5px;font-weight:600;border-radius:40px;padding:1px 8px;margin-top:4px}.bd.ok{background:#E6F4EC}.bd.warn{background:#FFF6E3}.bd.bad{background:var(--b100);color:var(--brand)}.bd.new{background:#F1F3F4;color:var(--ink2)}
+.chk{display:flex;flex-wrap:wrap;gap:6px}.chk span{font-size:12.5px;background:#E6F4EC;border-radius:40px;padding:4px 12px;color:var(--ink)}.chk span::before{content:"✓ ";font-weight:700;color:#1E7A4F}
+#ov{display:grid;gap:16px}.dis p{margin:0;font-size:12.5px;color:var(--ink2)}.dis b{color:var(--ink)}
+.sec{display:grid;gap:14px}.sh{display:flex;gap:10px;align-items:center}
+.posq{border-left:4px solid var(--brand);background:var(--b50);border-radius:0 14px 14px 0;padding:12px 16px}.posq span{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--brand);font-weight:600}.posq p{margin:4px 0 0;font-size:15.5px;line-height:1.55}.posq p b{color:var(--brand)}
+.qb{background:var(--bg);border-radius:14px;padding:14px;display:grid;gap:10px;align-content:start}.qb h4{margin:0;font-size:12px;color:var(--ink3);font-weight:600}.qb h3{margin:0;font-size:16px;text-transform:none;letter-spacing:0;color:var(--ink);font-weight:700}
+.qb .ld{margin:0;font-size:12.5px;color:var(--ink2)}
+.pi{display:grid;grid-template-columns:20px minmax(0,1fr);gap:8px;background:#fff;border-radius:10px;padding:9px 10px;font-size:12.8px}.pi>i{font-style:normal;font-weight:700;width:20px;height:20px;border-radius:50%;display:grid;place-items:center;font-size:11px;background:#E6F4EC;color:#1E7A4F}.pi.no>i{background:var(--b100);color:var(--brand)}
+.pi .evs{margin-top:4px}
+.evs{display:flex;flex-wrap:wrap;gap:4px;align-items:center;font-size:11px;color:var(--ink3);margin-top:8px}
+.at{margin:0}.at b{color:var(--brand)}
+.jm{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+@media(max-width:960px){.jm{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:minmax(220px,70%);overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px}.jm>*{scroll-snap-align:start}}
+.jc{display:grid;gap:8px;align-content:start}
+.jh{border-radius:12px;padding:10px 12px;color:#1d1f22}.jh b{display:block;font-size:13px}.jh span{display:block;font-size:11.5px;margin-top:2px}.jh .sv{font-size:20px;font-weight:700;margin-top:4px}
+.prc{background:#fff;border:1.5px solid var(--line);border-radius:12px;padding:10px 12px;transition:opacity .2s,border-color .15s}.prc:hover{border-color:var(--brand)}.prc.dim{opacity:.25}
+.prc h4{margin:6px 0 2px;font-size:13.5px}.prc .ac{font-size:12.3px}.prc .rl{font-size:11px;color:var(--ink3);margin-top:4px}
+.pr{display:inline-block;font-size:10.5px;font-weight:700;border-radius:40px;padding:1px 8px;letter-spacing:.04em}.pr.HIGH{background:var(--brand);color:#fff}.pr.MEDIUM{background:var(--b100);color:var(--brand)}.pr.LOW{background:#F1F3F4;color:var(--ink2)}
+.evc{border:1.5px dashed var(--b200);border-radius:14px;padding:14px;display:grid;gap:8px;align-content:start}.evc h4{margin:0;font-size:14px}.evc p{margin:0;font-size:12.5px;color:var(--ink2)}.evc p b{color:var(--ink);font-weight:600}.evc a{color:var(--brand)}
+.pulse{animation:pls 1.1s ease-out 2;border-color:var(--brand)!important}@keyframes pls{0%{box-shadow:0 0 0 0 #91121c66}100%{box-shadow:0 0 0 14px #91121c00}}
+#sins li{cursor:pointer}#sins li:hover,#sins li.act{border-color:var(--brand);background:var(--b50)}
+@media(min-width:961px){#pa1 .hd>div:first-child{position:sticky;top:64px}}
+.two .evc h4,.two .qb h4{text-align:left}.two .qb h4{font-size:12px;color:var(--ink3);font-weight:600}.two .evc h4{font-size:14px;color:var(--ink)}
+.ctas .cta{flex-direction:column;align-items:flex-start;justify-content:space-between}
 </style></head><body>
-<div class="bar"><h1>Audit đối thủ · Bảng giá</h1><nav><button data-tab="m">Tổng quan</button><button data-tab="o">Đề xuất</button><button data-tab="d">Phân tích</button></nav></div>
+<div class="bar"><h1>Audit đối thủ · Bảng giá</h1><nav><button data-tab="m">Phương pháp</button><button data-tab="d">Phân tích</button><button data-tab="o">Đề xuất</button></nav></div>
 <main>
 <button id="back" hidden></button>
 <section id="mt" class="flow">
@@ -109,18 +163,71 @@ ul.in{margin:0;padding:0}
   <div class="sr"><div class="hmw" id="s3"></div><div class="scale">1 <b></b> 5</div></div></div>
  <div class="step"><div class="sl"><div class="no">4</div><div><h2>Tổng hợp</h2><p><b>Làm gì:</b> Cộng điểm theo trọng số, ưu tiên khám phá mã, đánh giá mã, độ hữu dụng và thuận tiện.</p><p><b>Để làm gì:</b> Thấy hình dạng năng lực của từng sản phẩm, từ đó biết DNSE cần bổ sung gì và nên học ai.</p><div class="chips"><span>Khám phá mã <b>30%</b></span><span>Đánh giá 1 mã <b>25%</b></span><span>Hữu dụng <b>30%</b></span><span>Thuận tiện <b>30%</b></span></div></div></div>
   <div class="sr two"><div><h4>Trong nước</h4><svg class="rd" id="s4a" viewBox="-60 0 680 440"></svg><div class="lg" id="s4al"></div></div><div><h4>Quốc tế</h4><svg class="rd" id="s4b" viewBox="-60 0 680 440"></svg><div class="lg" id="s4bl"></div></div></div></div>
-  <a class="cta" href="#" data-goto="overview"><div><b>Xem đề xuất cho Bảng giá DNSE</b><span>7 hướng ưu tiên, 2 hướng cần đánh giá thêm, rút ra từ kết quả chấm điểm.</span></div><em>Xem đề xuất →</em></a>
+  <div class="ctas"><a class="cta" href="#" data-goto="a1"><div><b>Xem phân tích</b><span>Chấm điểm 9 sản phẩm, dữ liệu SEO và đối chiếu với nghiên cứu 2024.</span></div><em>Xem phân tích →</em></a><a class="cta alt" href="#" data-goto="overview"><div><b>Xem đề xuất cho Bảng giá DNSE</b><span>Định vị sản phẩm, 6 đề xuất cải thiện và 2 hướng cần đánh giá thêm.</span></div><em>Xem đề xuất →</em></a></div>
 </section>
-<div id="ov" hidden>
- <div class="ctl tb"><div class="seg" id="rsg"><button class="on" data-v="0">Theo Job</button><button data-v="1">Theo góc nhìn</button></div><button class="go">Xem phân tích →</button></div>
- <div class="grid"><div class="stack">
-  <div class="card"><h2>Trong nước</h2><svg class="rd" id="radar1" viewBox="0 0 560 440"></svg><div class="lg" id="lg1"></div></div>
-  <div class="card"><h2>Quốc tế</h2><svg class="rd" id="radar2" viewBox="0 0 560 440"></svg><div class="lg" id="lg2"></div></div></div>
- <div class="card"><h2>Đề xuất cho Bảng giá DNSE</h2><h3>Ưu tiên</h3><div id="pat"></div><h3>Cần đánh giá thêm</h3><div id="eval"></div><h3>Anti-pattern với người mới</h3><div id="anti"></div></div>
-</div></div>
 <div id="dt" hidden>
- <div class="seg" id="sub"><button data-sub="h1">Sản phẩm × Job</button><button data-sub="h2">Sản phẩm × Góc nhìn</button><button data-sub="h3">Job × Góc nhìn</button></div>
- <div id="panels"></div>
+ <div class="seg" id="sub"><button data-sub="a1">Chấm điểm đối thủ</button><button data-sub="a2">SEO</button><button data-sub="a3">So sánh 2024</button></div>
+ <div class="card pn" id="pa1">
+  <p class="mean">Chọn một heatmap để xem các câu phân tích dựa trên nó, hoặc lọc theo nhóm <b>Định vị</b> / <b>Học hỏi</b>. Di chuột (hoặc chạm) vào câu phân tích để tô sáng các ô làm minh chứng.</p>
+  <div class="hd">
+   <div>
+    <p class="lbl">Heatmap</p>
+    <div class="seg" id="hsg"><button data-h="1">Sản phẩm × Job</button><button data-h="2">Sản phẩm × Góc nhìn</button><button data-h="3">Job × Góc nhìn</button></div>
+    <p class="hmd" id="hmd"></p>
+    <div id="psw" hidden><div class="seg sm" id="psg"></div><p class="pdesc" id="pdesc"></p></div>
+    <div class="hmw" id="hm"></div><div class="scale">1 <b></b> 5</div>
+   </div>
+   <div>
+    <p class="lbl">Phân tích</p>
+    <div class="seg" id="fsg"><button data-g="pos">Định vị</button><button data-g="learn">Học hỏi</button></div>
+    <p class="hint" id="hint"></p>
+    <ul class="in" id="ins"></ul>
+   </div>
+  </div>
+ </div>
+ <div class="card pn" id="pa2">
+  <div class="hl"><em>1.1</em><div><b>Quy mô tìm kiếm của Bảng giá DNSE còn kém xa VPS và TCBS.</b><span>Theo Semrush, organic traffic của DNSE tăng nhanh trong 6 tháng, nhưng quy mô vẫn chỉ bằng khoảng 1/3,6 VPS và DNSE mới xếp thứ 8 với từ khoá “Bảng giá chứng khoán”.</span></div></div>
+  <div class="kpis" id="kpis"></div>
+  <div class="hd">
+   <div>
+    <div class="ctl"><div class="seg" id="ssg"><button data-m="0">Organic traffic</button><button data-m="1">Organic keywords</button></div><div class="lg" id="slg"></div></div>
+    <svg class="sc" id="seo" viewBox="0 0 640 300"></svg>
+    <p class="mean nt">Nguồn: Semrush (26/10/2026). Không gồm Siêu cổ phiếu vì trang này cần dữ liệu root domain, các bên còn lại dùng subdomain. Các chỉ số phản ánh SEO, không đại diện cho tổng traffic hay thị phần người dùng Bảng giá.</p>
+   </div>
+   <div>
+    <p class="lbl">Nhận định</p>
+    <ul class="in" id="sins"></ul>
+    <div class="pc cc"><p><b>Kết luận:</b> Bảng giá DNSE đang có đà tăng trưởng SEO tích cực trong những tháng gần đây, song quy mô vẫn kém xa VPS (~3,6 lần) và TCBS (~2 lần). Cơ hội: vẫn còn dư địa cải thiện khả năng cạnh tranh ở nhóm từ khóa cốt lõi để có thể leo rank từ Top 8 vào Top 5.</p></div>
+   </div>
+  </div>
+ </div>
+ <div class="card pn" id="pa3">
+  <div class="hl"><em>1.2</em><div><b>So với 2024, DNSE đã khắc phục điểm yếu về luồng dùng, nhưng điểm yếu chuyển sang nội dung.</b><span>Mọi điểm thiếu mà nghiên cứu 2024 chỉ ra (tìm kiếm mã, tin tức, dải chỉ số, tuỳ biến bảng) nay đã có, giúp thuận tiện và thúc đẩy lên thứ 2 trong nước. Ngược lại, đa dạng và hữu dụng chỉ đạt 3,2, xếp thứ 4/5.</span></div></div>
+  <p class="lbl">Vị trí DNSE trong nước, audit 2026</p>
+  <div class="kpis" id="rk24"></div>
+  <p class="lbl">Đối chiếu từng góc nhìn</p>
+  <div id="cmp"></div>
+  <p class="lbl">6 điểm thiếu năm 2024 nay đã có trên bảng giá</p>
+  <div class="chk" id="chk"></div>
+ </div>
+</div>
+<div id="ov" hidden>
+ <div class="card dis"><p><b>Lưu ý:</b> Đây là các đề xuất kèm mức độ ưu tiên từ góc nhìn UXR, dựa trên đánh giá đối thủ và trải nghiệm cá nhân. Stakeholder cần xem xét thêm nhu cầu người dùng, nỗ lực cần bỏ ra và giá trị đem lại cho từng giai đoạn phát triển. <b>Lựa chọn tính năng không phải để sao chép, mà để tìm ra cải tiến khác biệt tạo điểm nhấn.</b></p></div>
+ <div class="card sec" id="pr-pos">
+  <div class="sh"><div class="n">1</div><h2>Định vị sản phẩm</h2></div>
+  <div class="posq"><span>Định vị đề xuất</span><p>Bảng giá DNSE là nơi nhà đầu tư trẻ và năng động <b>khám phá cơ hội và hiểu vì sao</b>, rồi hành động ngay. DNSE không cạnh tranh bằng số lượng dữ liệu, mà bằng việc mỗi con số đều đi kèm lời giải thích và bước tiếp theo.</p></div>
+  <div class="two" id="posg"></div>
+  <div class="pc at" id="atr"></div>
+ </div>
+ <div class="card sec">
+  <div class="sh"><div class="n">2</div><h2>Đề xuất cải thiện Bảng giá hiện tại</h2></div>
+  <div class="ctl tb"><p class="mean" style="margin:0">Đặt theo vai trò trong hành trình đầu tư. Đầu mỗi cột là điểm DNSE ở bước đó. Thứ tự ưu tiên gợi ý: Phân tích thị trường và Khám phá mã → Đánh giá mã → Theo dõi.</p><div class="seg" id="prsg"><button class="on" data-p="all">Tất cả</button><button data-p="HIGH">High</button><button data-p="MEDIUM">Medium</button></div></div>
+  <div class="jm" id="jm"></div>
+ </div>
+ <div class="card sec">
+  <div class="sh"><div class="n">3</div><h2>Hướng nâng cấp khác, cần đánh giá thêm</h2></div>
+  <div class="two" id="evg"></div>
+ </div>
 </div>
 </main>
 <div id="tip" hidden></div>
@@ -161,7 +268,7 @@ const itemTip=(x,anti)=>`<div class="th">${x.t}</div><p>${x.why}</p>${x.have?`<p
 function defTip(k){const c=k[0],i=+k.slice(1);
  if(c=='j')return`<div class="th">${J[i]} <span class="gp">trọng số ${WJ[i]*100}%</span></div><p>${DEFJ[i]}</p>`;
  if(c=='v')return`<div class="th">${V[i]} <span class="gp">trọng số ${WV[i]*100}%</span></div><p>${DEFV[i]}</p>`;
- if(c=='a')return itemTip(ANTI[i],1);if(c=='q')return itemTip(PRO[i],0);
+ if(c=='q')return prTip(k.slice(1));
  return`<div class="th">${P[i][0]}</div><p>${POS[i]}</p>${REF[i]?`<p><b>Tham khảo:</b> ${REF[i]}</p>`:''}`}
 ['mouseover','mousemove','click'].forEach(ev=>document.addEventListener(ev,e=>{const t=e.target.closest('[data-r],[data-t],[data-k]');const ok=t&&(t.dataset.k||t.dataset.t||(t.closest('.hmw')||{})._tip);ok?showTip(t.dataset.k?defTip(t.dataset.k):t.dataset.t||t.closest('.hmw')._tip(+t.dataset.r,+t.dataset.c),e.clientX,e.clientY):tip.hidden=true}));
 const POS=[
@@ -183,56 +290,6 @@ const REF=['',
 `trải nghiệm khám phá theo chủ đề, mỗi chủ đề có mã tiêu biểu; giao dịch giả lập có yếu tố game.`,
 `trải nghiệm: AI giải thích “vì sao tăng/giảm” ngay tại mã; cảnh báo 4 mẫu, 2 click.`,
 `chuyển demo ↔ tài khoản thật 1 click; chiến lược theo kịch bản có giải thích.`];
-const I=(t,s,e)=>({t,s,e}),VNr=c=>VN.map(r=>[r,c]),QTr=c=>QT.map(r=>[r,c]);
-const HAND={
-1:{a:[I(`TCBS hơn DNSE ở cả 5 Job`,`Rõ nhất ở Theo dõi (4,5 so với 3,5) nhờ cảnh báo kèm tín hiệu.`,[[0,'*'],[2,'*']]),
-I(`Phân tích thị trường: DNSE đứng cuối nhóm trong nước`,`3,35, cả 4 đối thủ đều cao hơn; TCBS dẫn đầu (4,1), tiếp theo là VPS (3,8) nhờ khuyến nghị FIT.`,VNr(0)),
-I(`Lợi thế DNSE nằm ở nửa sau hành trình`,`Quyết định giao dịch 3,55 và Theo dõi 3,5, cùng hạng 2 trong nước, nhờ thao tác dễ chứ không nhờ độ phủ.`,VNr(3).concat(VNr(4)))],
-v0:[I(`Đa dạng: DNSE hạng 4/5 trong nước`,`Tổng 3,27, TCBS dẫn đầu 4,77.`,VNr(-1)),
-I(`Thiếu nhiều nhất ở Phân tích thị trường và Quyết định giao dịch`,`Cùng 3,0, kém TCBS 2 điểm: thiếu dòng tiền, khối ngoại/tự doanh; chỉ có backtest.`,[[0,0],[2,0],[0,3],[2,3]])],
-v1:[I(`Không Job nào của DNSE đạt 4 điểm Hữu dụng`,`Thông tin dừng ở số liệu, chưa trả lời “vì sao” và “nên làm gì”.`,[[0,'*']]),
-I(`TCBS, Finviz, Toss hơn nhờ diễn giải`,`AI phân tích sâu, cảnh báo kèm tín hiệu, AI giải thích biến động ngay tại mã.`,[[0,-1],[2,-1],[5,-1],[7,-1]])],
-v2:[I(`Thuận tiện là thế mạnh của DNSE: hạng 2/5 trong nước`,`Đánh giá 1 mã, Quyết định giao dịch, Theo dõi đều 4,0; backtest dễ dùng nhất nhóm trong nước.`,[[0,2],[0,3],[0,4],[0,-1],[2,-1]]),
-I(`Điểm trừ ở Phân tích thị trường và Khám phá mã`,`Cùng 3,5; bản đồ nhiệt cấp mã cần 3 bước mới thấy.`,[[0,0],[0,1]])],
-v3:[I(`DNSE dẫn người dùng đi tiếp tốt: hạng 2/5 trong nước`,`Thị trường → ngành → mã, xem nhanh → đặt lệnh, backtest (4,0).`,[[0,0],[0,2],[0,-1]]),
-I(`TCBS hơn ở Khám phá mã và Quyết định giao dịch`,`4,5 so với 3,5 nhờ chuỗi bộ lọc → danh mục → cảnh báo khép kín.`,[[0,1],[2,1],[0,3],[2,3]]),
-I(`Dư địa: cảnh báo và ENSA`,`Thêm cảnh báo để giữ chân; cho ENSA dẫn sang lọc mã, theo dõi.`)]},
-2:{a:[I(`Trong nước chia 3 kiểu`,`VPS, VNDirect nhiều nội dung nhưng đứt đường dẫn; DNSE dẫn tốt nhưng mỏng nội dung; TCBS cân bằng.`,[[0,0],[0,3],[1,0],[1,3],[2,0],[2,3],[3,0],[3,3]]),
-I(`Trải nghiệm DNSE đã ngang quốc tế`,`Thuận tiện 3,8 cao hơn Finviz, Moomoo, chỉ sau Toss, Mitrade; Thúc đẩy 3,8 cao hơn Moomoo, Mitrade.`,[[0,2],[0,3]].concat(QTr(2),QTr(3))),
-I(`Khoảng cách thật nằm ở Hữu dụng`,`DNSE 3,2 so với 3,3–4,3 của quốc tế; bên dẫn đầu đều diễn giải ngay tại mã.`,[[0,1]].concat(QTr(1))),
-I(`Toss là tham chiếu gần nhất cho V2`,`Đa dạng 3,5 gần DNSE nhưng Hữu dụng 3,9; cùng hướng tới người mới.`,[[0,0],[0,1],[7,0],[7,1]])]}};
-function ins2(M,T){
- const r=1+VN.filter(p=>T[p]>T[0]+1e-9).length,bv=am(T,VN),bq=am(T,QT),mn=Math.min(...M[0]),W=V.map((_,v)=>v).filter(v=>M[0][v]==mn),w=W[0],bw=am(M.map(x=>x[w]),[1,2,3,4]),mx=Math.max(...M[bq]),Q=V.map((_,v)=>v).filter(v=>M[bq][v]==mx),nv=a=>a.map(v=>V[v]).join(', ');
- return[I(`DNSE hạng ${r}/5 trong nước ở Job này`,`Tổng ${fmt(T[0])}; dẫn đầu trong nước: ${P[bv][0]} ${fmt(T[bv])}.`,[[0,-1],[bv,-1]]),
- I(`DNSE yếu nhất ở ${nv(W)}`,`DNSE ${fmt(mn)}; cao nhất trong nước ở ${V[w]}: ${P[bw][0]} ${fmt(M[bw][w])}.`,W.map(v=>[0,v]).concat([[bw,w]])),
- I(`Quốc tế dẫn đầu: ${P[bq][0]}`,`Tổng ${fmt(T[bq])}, cao nhất ở ${nv(Q)} (${fmt(mx)}).`,[[bq,-1]].concat(Q.map(v=>[bq,v])))]}
-function ins3(M,ps){
- if(ps.length==9){
-  const c=[];J.forEach((_,j)=>V.forEach((_,v)=>c.push([M[j][v],j,v])));c.sort((a,b)=>a[0]-b[0]);const lo=c[0],bp=am(P.map((_,p)=>S(p,lo[1],lo[2])));
-  let B=[0];J.forEach((_,j)=>V.forEach((_,v)=>{const x=P.map((_,p)=>S(p,j,v)),mx=am(x),mn=am(x,0,-1);if(x[mx]-x[mn]>B[0])B=[x[mx]-x[mn],j,v,mx,mn]}));
-  const ra=M.map(mean),wj=am(ra,0,-1);
-  return[I(`Lỗ hổng chung: ${J[lo[1]]} · ${V[lo[2]]}`,`Trung bình ${fmt(lo[0])}, thấp nhất 20 ô; làm tốt nhất: ${P[bp][0]} ${fmt(S(bp,lo[1],lo[2]))}.`,[[lo[1],lo[2]]]),
-  I(`Nơi tạo khác biệt: ${J[B[1]]} · ${V[B[2]]}`,`Từ ${P[B[4]][0]} ${fmt(S(B[4],B[1],B[2]))} đến ${P[B[3]][0]} ${fmt(S(B[3],B[1],B[2]))}.`,[[B[1],B[2]]]),
-  I(`Khâu yếu nhất thị trường: ${J[wj]}`,`Trung bình ${fmt(ra[wj])} trên 4 góc nhìn.`,[[wj,'*']])]}
- const rest=P.map((_,i)=>i).filter(i=>!ps.includes(i)),dv=[];J.forEach((_,j)=>V.forEach((_,v)=>dv.push([M[j][v]-mean(rest.map(p=>S(p,j,v))),j,v])));dv.sort((a,b)=>b[0]-a[0]);
- const hi=dv[0],lo=dv[19],avg=x=>fmt(M[x[1]][x[2]]-x[0]);
- return[I(`Nổi trội nhất: ${J[hi[1]]} · ${V[hi[2]]}`,`${fmt(M[hi[1]][hi[2]])} so với mặt bằng ${avg(hi)}.`,[[hi[1],hi[2]]]),
- lo[0]<0?I(`Thấp nhất so với mặt bằng: ${J[lo[1]]} · ${V[lo[2]]}`,`${fmt(M[lo[1]][lo[2]])} so với ${avg(lo)}.`,[[lo[1],lo[2]]]):I(`Không ô nào thấp hơn mặt bằng`,`Ô sát mặt bằng nhất: ${J[lo[1]]} · ${V[lo[2]]}, ${fmt(M[lo[1]][lo[2]])} so với ${avg(lo)}.`,[[lo[1],lo[2]]])]}
-const PN={1:'Mỗi sản phẩm mạnh hay đứt gãy ở khâu nào của hành trình.',2:'Thắng nhờ nhiều tính năng hay nhờ trải nghiệm và dẫn dắt.',3:'Điểm mạnh, lỗ hổng của thị trường hoặc của riêng một sản phẩm.'};
-const CFG={1:V,2:J,3:P.map(p=>p[0])},FK={1:'v',2:'j',3:'p'},F={1:[],2:[],3:[]},ALL=[V.map((_,i)=>i),J.map((_,i)=>i),P.map((_,i)=>i)];
-$('#panels').innerHTML=[1,2,3].map(h=>`<div class="card pn" id="p${h}" hidden><p class="mean">${PN[h]}</p><div class="hd"><div><div class="seg" id="sg${h}"></div><div class="hmw" id="hm${h}" style="margin-top:12px"></div><div class="scale">1 <b></b> 5</div></div><div><div id="pc${h}"></div><ul class="in" id="in${h}"></ul></div></div></div>`).join('');
-function draw(h){
- const s=F[h].length?F[h]:ALL[h-1];let M,T=null,rows=P.map(p=>p[0]),cols=V,gr=P.map(p=>p[1]),L;
- if(h==1){M=m1(s);T=M.map(r=>wm(r,WJ));cols=J}else if(h==2){M=m2(s);T=M.map(r=>wm(r,WV));if(F[2].length)L=ins2(M,T)}else{M=m3(s);rows=J;gr=null;L=ins3(M,s)}
- const key=F[h].length?FK[h]+F[h][0]:'a';L=(HAND[h]&&HAND[h][key])||L||[];
- $('#pc'+h).innerHTML=h==3&&F[3].length?(p=>`<div class="pc"><h4>${P[p][0]}</h4><p>${POS[p]}</p>${REF[p]?`<p><b>Tham khảo:</b> ${REF[p]}</p>`:''}</div>`)(F[3][0]):'';
- const el=$('#hm'+h);heat(el,{h,s,M,T,rows,cols,grp:gr,rk:h==3?'j':'p',ck:h==1?'j':'v'});
- $('#in'+h).innerHTML=L.map(x=>`<li${x.e?` data-e='${JSON.stringify(x.e)}'`:''}><b>${x.t}</b><span>${x.s}</span></li>`).join('');
- $$('#in'+h+' li[data-e]').forEach(li=>{const e=JSON.parse(li.dataset.e);li.onmouseenter=()=>lit(el,e);li.onmouseleave=()=>{const a=$('#in'+h+' li.act');lit(el,a?JSON.parse(a.dataset.e):null)};
-  li.onclick=()=>{const on=!li.classList.contains('act');$$('#in'+h+' li').forEach(x=>x.classList.remove('act'));li.classList.toggle('act',on);lit(el,on?e:null)}});
- $$('#sg'+h+' button').forEach(b=>b.classList.toggle('on',b.dataset.v=='a'?!F[h].length:F[h].includes(+b.dataset.v)))}
-[1,2,3].forEach(h=>{const s=$('#sg'+h);s.innerHTML=`<button data-v="a">Tất cả</button>`+CFG[h].map((l,i)=>`<button data-v="${i}" data-k="${FK[h]}${i}">${l}</button>`).join('');
- s.onclick=e=>{const b=e.target.closest('button');if(!b)return;F[h]=b.dataset.v=='a'?[]:[+b.dataset.v];draw(h)};draw(h)});
 const CV=['#91121C','#2F6FDB','#1E9E73','#E38B1E','#7A5AD0'],CQ=['#0E9AA7','#E38B1E','#2F6FDB','#7A5AD0'];
 function radar(o,svg){
  const ax=o.mode?V:J,n=ax.length,cx=280,cy=228,Rr=150,pt=(i,s,e=0)=>{const a=-Math.PI/2+i*2*Math.PI/n,r=(s-1)/4*Rr+e;return[cx+r*Math.cos(a),cy+r*Math.sin(a),Math.cos(a)]};
@@ -246,41 +303,150 @@ function mkRadar(svg,lg,ps,cl){const o={ps,col:cl,sel:-1,hi:-1,mode:0,lg:$(lg)},
  o.lg.innerHTML=ps.map((p,k)=>`<button data-p="${p}" data-k="p${p}" style="--c:${cl[k]}"><i style="background:${cl[k]}"></i>${P[p][0]}</button>`).join('');
  o.lg.onclick=e=>{const b=e.target.closest('button');if(b){const p=+b.dataset.p;o.sel=o.sel==p?-1:p;d()}};
  o.lg.onmouseover=e=>{const b=e.target.closest('button'),h=b?+b.dataset.p:-1;if(h!=o.hi){o.hi=h;d()}};o.lg.onmouseleave=()=>{o.hi=-1;d()};d();o.draw=d;return o}
-const RAD=[mkRadar('#radar1','#lg1',VN,CV),mkRadar('#radar2','#lg2',QT,CQ)];
-$('#rsg').onclick=e=>{const b=e.target.closest('button');if(b){$$('#rsg button').forEach(x=>x.classList.toggle('on',x==b));RAD.forEach(o=>{o.mode=+b.dataset.v;o.draw()})}};
-const PRO=[
-{t:`Dữ liệu thị trường sâu hơn`,act:`Tăng độ sâu/rộng dữ liệu, luôn kèm diễn giải ngắn.`,why:`Job duy nhất cả 4 đối thủ trong nước đều hơn DNSE (3,35); thiếu dòng tiền, khối ngoại/tự doanh, tâm lý thị trường.`,have:`card chỉ số, heatmap ngành, ENSA`,ref:`TCBS Marketwatch, Siêu cổ phiếu dòng tiền ngành, Finviz AI 1 câu trên bản đồ nhiệt`},
-{t:`ENSA ngay tại mã`,act:`1 câu “vì sao tăng/giảm” ở dòng mã và khung xem nhanh.`,why:`Hữu dụng là khoảng cách lớn nhất với quốc tế (3,2); bên dẫn đầu đều diễn giải ngay tại mã.`,have:`ENSA`,ref:`Toss, Finviz`},
-{t:`Thêm thông tin vào chi tiết mã`,act:`Bổ sung thông tin mã trong chi tiết mã, tận dụng sẵn Senses.`,why:`Nhận định đã có ở Senses nhưng phải chuyển trang mới thấy (Hữu dụng 3,5).`,have:`Senses`,ref:`VNDirect D-Rating, Toss biểu đồ kèm kết luận`},
-{t:`Thông tin chuyên sâu cấp mã`,act:`Thêm dòng tiền nhà đầu tư nước ngoài, tự doanh, cá nhân.`,why:`Đa dạng ở Đánh giá 1 mã 3,5, thấp hơn TCBS (5,0), VPS và VNDirect (4,5).`,have:`dữ liệu nhà đầu tư nước ngoài ở khung xem nhanh`,ref:`TCBS phân loại nhà đầu tư, Moomoo dòng tiền theo quy mô lệnh`},
-{t:`Theo dõi bộ lọc`,act:`Tự báo khi có mã mới khớp bộ lọc.`,why:`Bộ lọc hiện chỉ dùng một lần, người dùng phải tự quay lại kiểm tra.`,have:`bộ lọc, bộ lọc mẫu`,ref:`TCBS bộ lọc → danh mục → cảnh báo, Finviz`},
-{t:`Cảnh báo kèm hành động`,act:`Chạm ngưỡng điều kiện thì hiện thông báo kèm hành động.`,why:`Chưa ghi nhận cảnh báo trên Bảng giá DNSE, trong khi 7/8 sản phẩm còn lại đều có; đây là cơ chế giữ chân người dùng.`,have:`danh mục theo dõi, giá thời gian thực`,ref:`Toss 4 mẫu 2 click, TCBS kèm tín hiệu, VNDirect 54 chỉ tiêu`},
-{t:`Ghim mã, xem gần đây`,act:`Ghim mã quan tâm, tự tạo danh sách “Xem gần đây”.`,why:`Mở lại nhanh nhóm mã đang theo dõi.`,have:`danh mục theo dõi`,ref:`Toss danh mục cố định ở khung phải, Moomoo`},
-{t:`Cộng đồng theo mã`,act:`Đo độ quan tâm theo mã trước, chưa làm lớn.`,why:`Cộng đồng tạo động lực quay lại nhưng tốn công kiểm duyệt.`,have:`lượt xem, tìm kiếm, thêm danh mục`,ref:`Toss, Moomoo`},
-{t:`Công cụ cho nhà đầu tư chuyên nghiệp`,act:`Đánh giá riêng, không đưa vào giao diện chung.`,why:`Nhu cầu lọc sâu, kiểm chứng khác với người mới mà V2 hướng tới.`,ref:`Finviz bộ lọc AND/OR, Moomoo 100+ tiêu chí, Mitrade biến động đa khung`}];
-const ANTI=[
-{t:`Dữ liệu dày, thiếu tóm tắt`,act:`Thay bằng 1 kết luận và 3–5 chỉ số chính.`,why:`Người mới không biết bắt đầu từ đâu.`,ref:`Finviz, VPS, TCBS`,ev:[[5,1,0],[2,0,0],[1,0,0]]},
-{t:`Điểm số không giải thích`,act:`Thêm 1 câu cách tính cạnh điểm số.`,why:`Người mới khó tin để dùng.`,ref:`Siêu cổ phiếu`,ev:[[4,0,1],[4,1,2]]},
-{t:`Cộng đồng khi chưa rõ nhu cầu`,act:`Đo độ quan tâm theo mã trước.`,why:`Tốn kiểm duyệt, rủi ro chất lượng nội dung.`,ref:`Toss`,ev:[[7,1,3]]}];
-const pp=(x,i,n,cls,k)=>`<div class="pp${cls}" data-k="${k}${i}"><div class="n">${n}</div><div><h4>${x.t}</h4><p class="ac">${x.act}</p></div></div>`;
-$('#pat').innerHTML=PRO.slice(0,7).map((x,i)=>pp(x,i,i+1,'','q')).join('');
-$('#eval').innerHTML=PRO.slice(7).map((x,i)=>pp(x,i+7,i+8,' ev','q')).join('');
-$('#anti').innerHTML=ANTI.map((x,i)=>pp(x,i,i+1,' an','a')).join('');
 $('#s1').innerHTML=[['DNSE',['Card chỉ số trong nước, quốc tế','Heatmap ngành 2 cấp, 22 ngành','AI tóm tắt 1 câu, hỏi đáp','Tin tức dạng danh sách']],['VPS',['Card chỉ số và danh sách','Dashboard 11 biểu đồ','Tin tức 2 nguồn','Khuyến nghị FIT']],['TCBS',['Card chỉ số và danh sách','Marketwatch, Power BI','AI Mập Thông Thái','Tin tức, iCalendar']]].map(([p,l],i)=>`<div class="colx${i?'':' me'}"><h5>${p}</h5><ul>${l.map(x=>`<li>${x}</li>`).join('')}</ul></div>`).join('');
 (()=>{const M=m1([0,1,2,3]),T=M.map(r=>wm(r,WJ));heat($('#s3'),{h:1,s:[0,1,2,3],M,T,rows:P.map(p=>p[0]),cols:J,grp:P.map(p=>p[1]),rk:'p',ck:'j'})})();
 mkRadar('#s4a','#s4al',VN,CV);mkRadar('#s4b','#s4bl',QT,CQ);
-const LBL={method:'Tổng quan',overview:'Đề xuất',h1:'Sản phẩm × Job',h2:'Sản phẩm × Góc nhìn',h3:'Job × Góc nhìn'},TAB={m:'method',o:'overview'};
-let last='h1',cur='',hist=[];
-function show(t){t=/^h[123]$/.test(t)||t=='overview'?t:'method';cur=t;const d=/^h/.test(t);if(d)last=t;
+// ===== Đề xuất (mục D) =====
+const PR={
+dash:{t:`Dashboard dữ liệu thị trường`,j:0,pri:'HIGH',act:`Thêm dòng tiền NN/tự doanh/cá nhân theo ngành, top mã ảnh hưởng chỉ số, tâm lý thị trường, kèm diễn giải dễ hiểu.`,why:`DNSE đã có các thông tin khá thuận tiện để nắm tổng quan về chỉ số sàn/rổ/ngành, tuy nhiên độ sâu/rộng thông tin còn yếu cần cải thiện (VD: dòng tiền NN/tự doanh/cá nhân của ngành, top các mã ảnh hưởng đến chỉ số, gauge chart tâm lý thị trường…), tăng sự hữu dụng với phân tích/diễn giải tổng quan dễ hiểu.`,have:`Ngành/chỉ số`,ref:`TCBS, Toss: các dashboard hoặc danh sách xếp hạng nhiều chủ đề/chỉ số/filter cập nhật realtime`,ev:['2.4a','1.5','2.5b']},
+ensa:{t:`ENSA theo ngữ cảnh mã`,j:1,pri:'HIGH',act:`Mở rộng từ hỏi đáp chung sang giải thích diễn biến của từng mã.`,why:`DNSE đã có ENSA nhưng cần mở rộng trải nghiệm từ hỏi đáp chung sang giải thích diễn biến của từng mã. Đưa AI vào đúng ngữ cảnh giúp giảm thao tác tìm kiếm và chuyển đổi giữa các công cụ.`,have:`ENSA`,ref:`Moomoo: Ask AI theo ngữ cảnh mã; Toss Securities: trải nghiệm giải thích thông tin cổ phiếu`,ev:['2.5a','2.2','1.4']},
+senses:{t:`Dữ liệu tóm tắt dưới mã`,j:2,pri:'MEDIUM',act:`Tích hợp tóm tắt Senses ngay tại Bảng giá.`,why:`Thông tin phân tích và nhận định đã có trong hệ sinh thái DNSE nhưng chưa được tiếp cận liền mạch ngay tại Bảng giá. Tích hợp tóm tắt Senses giúp giảm việc chuyển trang để tìm thông tin.`,have:`Senses`,ref:`Finviz: tập trung dữ liệu cơ bản, định giá và tin tức trên trang chi tiết mã`,ev:['2.4d']},
+alert:{t:`Cảnh báo giá mua/bán`,j:3,also:'Theo dõi',pri:'MEDIUM',act:`Báo khi giá đạt điều kiện đã đặt trong Ý tưởng đầu tư.`,why:`DNSE đã có ý tưởng đầu tư, nhưng người dùng vẫn cần tự theo dõi để biết khi nào giá đạt điều kiện. Cảnh báo giúp kết nối ý tưởng đầu tư với thời điểm người dùng cần xem xét hành động.`,have:`Ý tưởng đầu tư`,ref:`Mitrade: cảnh báo khi giá đạt ngưỡng được thiết lập`,ev:['2.5d','2.4c']},
+filter:{t:`Theo dõi mã trong bộ lọc`,j:4,pri:'MEDIUM',act:`Tự báo khi có mã mới khớp bộ lọc đã lưu.`,why:`DNSE đã có bộ lọc tùy chỉnh với 32 tiêu chí và 8 bộ lọc dựng sẵn, nhưng người dùng vẫn cần chủ động kiểm tra để phát hiện mã mới phù hợp. Cơ chế theo dõi giúp bộ lọc tiếp tục tạo giá trị sau lần sử dụng đầu tiên.`,have:`Bộ lọc có sẵn`,ref:`TCBS, Mitrade: cơ chế cảnh báo và theo dõi điều kiện thị trường`,ev:['2.4c']},
+pin:{t:`Ghim mã và danh sách tự động`,j:4,pri:'MEDIUM',act:`Ghim mã quan tâm, tự tạo danh sách “Xem gần đây”.`,why:`Người dùng thường xuyên theo dõi một nhóm mã nhất định nhưng cần thao tác tìm lại nếu thiếu công cụ cá nhân hóa thuận tiện. Ghim mã và danh sách “Xem gần đây” là những tính năng nền tảng để hỗ trợ theo dõi liên tục.`,have:`Danh sách mã, dữ liệu hành vi người dùng`,ref:`Moomoo: Watchlist và Heat List`,ev:['2.4c']},
+community:{t:`Phát triển cộng đồng`,pri:'LOW',role:`Theo dõi & Cộng đồng`,why:`DNSE còn khoảng trống ở tiêu chí Theo dõi. Tuy nhiên, phát triển cộng đồng realtime đòi hỏi nguồn lực kiểm duyệt và có thể phát sinh rủi ro về chất lượng nội dung, nên cần kiểm chứng nhu cầu trước khi đầu tư lớn.`,have:`Dữ liệu độ phổ biến của mã (lượt tìm kiếm, lượt xem, lượt thêm vào danh sách theo dõi); hệ thống sự kiện hành vi hiện tại; các thành phần giao diện mã và danh sách theo dõi sẵn có trên Bảng giá.`,ref:`Moomoo Heat List (khám phá mã theo độ phổ biến, độ nóng tin tức); Toss Securities cộng đồng theo mã; TCBS/VNDirect biểu đồ độ quan tâm của NĐT đến mã theo thời gian.`,ev:['2.1']},
+pro:{t:`Công cụ phân tích cho NĐT chuyên nghiệp`,pri:'LOW',role:`Tìm ý tưởng · Thẩm định một mã · Đặt lệnh · Động lực giao dịch`,why:`DNSE đang có lợi thế ở tìm ý tưởng và đặt lệnh, nhưng nhu cầu phân tích chuyên sâu, so sánh và cá nhân hóa của nhà đầu tư chuyên nghiệp có thể chưa được đáp ứng đầy đủ. Hướng phát triển này nên được đánh giá riêng, tránh làm giao diện V1/V2 trở nên phức tạp với số đông người dùng.`,have:`Bộ lọc có sẵn; dữ liệu giá, biểu đồ, công cụ phân tích đang có; ENSA; Senses; Ý tưởng đầu tư.`,ref:`Finviz bộ lọc theo mẫu hình kỹ thuật và hệ thống chỉ số phân tích mã; Mitrade cảnh báo biến động bất thường, chiến lược theo thời hạn; Moomoo dữ liệu dòng tiền theo quy mô lệnh. Benchmark các sản phẩm khác trong hệ sinh thái DNSE: <a href="https://www.figma.com/deck/zukVuZXnPMErh8hIWvwPCx/B%E1%BA%A3ng-gi%C3%A1_Benchmark-Case-studies?node-id=13-885&t=F3dOPOUcLdZCdOgu-1" target="_blank" rel="noopener">xem tại đây</a>.`,ev:['2.3']}};
+const prName=p=>p=='pos'?'Định vị sản phẩm':PR[p].t;
+function prTip(id){const x=PR[id];if(!x)return'';return`<div class="th">${x.t}</div><p>${x.why}</p><p><b>Có sẵn:</b> ${x.have}</p><p class="nx">Tham khảo: ${x.ref}</p>`}
+
+// ===== Phân tích: chấm điểm (mục B, bỏ câu SEO và so sánh 2024) =====
+const VNr=c=>VN.map(r=>[r,c]),QTr=c=>QT.map(r=>[r,c]);
+const SA=[
+{id:'1.1',g:'pos',h:1,t:`Bảng giá DNSE đứng thứ 2 trong nước về trải nghiệm.`,s:`Theo bảng điểm tự chấm, DNSE chỉ đứng sau TCBS.`,e:VNr(-1),to:['pos']},
+{id:'1.3',g:'pos',h:1,t:`DNSE chưa có định hướng rõ ràng cho bảng giá.`,s:`Các sản phẩm khác đi sâu vào một job cụ thể, như Finviz với khám phá mã hay Siêu cổ phiếu với phân tích thị trường. Tính năng của DNSE lại dàn đều trên toàn hành trình, nên người dùng chưa có lý do để nhớ DNSE là nơi tốt nhất cho việc gì.`,e:[[0,0],[0,1],[0,2],[0,3],[0,4],[5,1],[4,0]],to:['pos']},
+{id:'1.4',g:'pos',h:3,p3:0,t:`DNSE phù hợp với newbie về thao tác, nhưng chưa đủ về thông tin.`,s:`Người dùng đi tới chi tiết mã và đặt lệnh rất nhanh, nhưng thông tin dừng ở mức hiển thị số liệu, chưa trả lời “vì sao” và “nên làm gì”. Hệ quả là không có việc nào DNSE đạt từ 4 điểm hữu dụng trở lên.`,e:[['*',1],['*',2]],to:['ensa','pos']},
+{id:'1.5',g:'pos',h:1,t:`Xét trên 5 stage, DNSE yếu ở đầu phễu và mạnh ở nửa sau hành trình.`,s:`Phân tích thị trường và Khám phá mã chiếm 45% trọng số, nhưng DNSE chỉ đạt 3,35 ở cả hai và đứng cuối nhóm trong nước ở Phân tích thị trường. Ngược lại, Quyết định giao dịch và Theo dõi đều đứng thứ 2 trong nước.`,e:VNr(0).concat([[0,1]],VNr(3),VNr(4)),to:['dash','ensa']},
+{id:'1.6',g:'pos',h:2,t:`Xét trên 4 góc nhìn, DNSE “dẫn tốt nhưng mỏng nội dung”.`,s:`Thuận tiện và thúc đẩy đạt 3,8, cao hơn đa dạng và hữu dụng 0,6 điểm. VPS và VNDirect có hình ảnh ngược lại: nhiều nội dung nhưng đứt đường dẫn.`,e:[0,1,3].flatMap(p=>[0,1,2,3].map(v=>[p,v])),to:['pos']},
+{id:'2.1',g:'learn',h:1,t:`Về định hướng, nên chọn một điểm khác biệt làm đòn bẩy thay vì làm đều mọi thứ.`,s:`Các bên quốc tế chấp nhận mức trung bình ở một số tiêu chí để tạo khác biệt ở một tiêu chí, ví dụ Moomoo chỉ đạt 2,8 ở Theo dõi nhưng đạt 4,3 ở khám phá mã, tạo khác biệt ở tương tác cộng đồng như danh sách mã được quan tâm, gamification paper trade, hoặc cộng đồng thảo luận.`,e:[[6,1],[6,4]],to:['pos','community']},
+{id:'2.2',g:'learn',h:2,t:`Với newbie/Gen Z, cần diễn giải tại điểm chạm, không cần thêm dữ liệu.`,s:`Toss có độ đa dạng gần DNSE nhưng đạt tổng điểm 4,00 (thứ 3/9), nhờ AI giải thích biến động ngay trong danh sách và khung xem nhanh mã. DNSE đã có sẵn nền móng cho hướng này: ENSA, khung xem nhanh mã và bộ lọc mẫu có mô tả.`,e:[[7,0],[7,1],[0,0],[0,1]],to:['ensa']},
+{id:'2.3',g:'learn',h:1,t:`Với pro trader, cần độ sâu công cụ và nên đánh giá tách riêng khỏi V2.`,s:`Các bên quốc tế cạnh tranh bằng độ sâu công cụ: Moomoo có bộ lọc hơn 100 tiêu chí, Finviz kết hợp được điều kiện AND/OR, Mitrade có cột biến động đa khung thời gian. Hướng này cần đánh giá riêng để giao diện V2 không trở nên phức tạp với số đông.`,e:[[5,1],[6,1]],to:['pro']},
+{id:'2.4',g:'learn',h:1,t:`Xét trên 5 stage, muốn cải thiện thứ hạng cần ưu tiên đầu phễu trước.`,s:`Phân tích thị trường là tiêu chí duy nhất mà cả 4 đối thủ trong nước đều bằng hoặc hơn DNSE, nên đây là chỗ cần ưu tiên đầu tiên.`,e:VNr(0),sub:[
+ {id:'2.4a',t:`Phân tích thị trường`,m:`Ưu tiên 1 · học TCBS, Siêu cổ phiếu`,s:`Dữ liệu dòng tiền, khối ngoại/tự doanh; thang sức mạnh ngành kèm cách tính.`,e:[[0,0],[2,0],[4,0]],to:['dash']},
+ {id:'2.4b',t:`Khám phá mã`,m:`Ưu tiên 1 · học Moomoo, Finviz`,s:`Khám phá theo chủ đề có mã ví dụ; nối từ ngành sang bộ lọc đã áp sẵn điều kiện.`,e:[[0,1],[6,1],[5,1]],to:['ensa']},
+ {id:'2.4c',t:`Theo dõi`,m:`Ưu tiên 2 · học TCBS, Toss`,s:`Chuỗi bộ lọc → danh mục → cảnh báo; cảnh báo có mẫu sẵn.`,e:[[0,4],[2,4],[7,4]],to:['filter','alert','pin']},
+ {id:'2.4d',t:`Đánh giá 1 mã`,m:`Ưu tiên 3 · học VNDirect`,s:`Gói đánh giá doanh nghiệp thành điểm số so với ngành (D-Rating).`,e:[[0,2],[3,2]],to:['senses']}]},
+{id:'2.5',g:'learn',h:2,t:`Xét trên 4 góc nhìn, cần nâng độ hữu dụng trong khi giữ thuận tiện và thúc đẩy.`,s:`Độ hữu dụng là khoảng cách thật với nhóm quốc tế: DNSE đạt 3,2, thấp hơn cả 4 sản phẩm quốc tế.`,e:[[0,1]].concat(QTr(1)),sub:[
+ {id:'2.5a',t:`Hữu dụng`,m:`DNSE 3,2 · dẫn đầu Finviz 4,3`,s:`Đưa ENSA vào đúng điểm chạm: giải thích “vì sao tăng/giảm” ở dòng mã và khung xem nhanh.`,e:[[0,1],[5,1]],to:['ensa']},
+ {id:'2.5b',t:`Đa dạng`,m:`DNSE 3,2 · dẫn đầu TCBS 4,8`,s:`Bổ sung có chọn lọc: cảnh báo, bảng xếp hạng theo tín hiệu, dữ liệu dòng tiền.`,e:[[0,0],[2,0]],to:['dash']},
+ {id:'2.5c',t:`Thuận tiện`,m:`DNSE 3,8 · dẫn đầu Toss 4,1`,s:`Giữ lợi thế; rút ngắn bản đồ nhiệt cấp mã (hiện cần 3 bước).`,e:[[0,2],[7,2]],to:['dash']},
+ {id:'2.5d',t:`Thúc đẩy`,m:`DNSE 3,8 · dẫn đầu TCBS 4,2`,s:`Thêm cảnh báo để kéo người dùng quay lại; để ENSA dẫn sang lọc mã và theo dõi.`,e:[[0,3],[2,3]],to:['alert','ensa']}]}];
+const IDX={};SA.forEach(x=>{IDX[x.id]=x;(x.sub||[]).forEach(y=>{y.h=x.h;y.g=x.g;IDX[y.id]=y})});
+const HN={1:'Sản phẩm × Job',2:'Sản phẩm × Góc nhìn',3:'Job × Góc nhìn'};
+const PN={1:'Mỗi sản phẩm mạnh hay đứt gãy ở khâu nào của hành trình.',2:'Thắng nhờ nhiều tính năng hay nhờ trải nghiệm và dẫn dắt.',3:'Từng sản phẩm mạnh, yếu ở ô nào khi ghép Job với góc nhìn. Chọn sản phẩm để xem.'};
+let H=1,P3=0,FL={t:'h',v:1},pin=null,hov=null;
+$('#psg').innerHTML=P.map((p,i)=>`<button data-p="${i}">${p[0]}</button>`).join('')+`<button data-p="-1">Trung bình 9 SP</button>`;
+function drawHeat(){const el=$('#hm');let M,T=null,rows=P.map(p=>p[0]),cols,gr=P.map(p=>p[1]),s;
+ if(H==1){s=[0,1,2,3];M=m1(s);T=M.map(r=>wm(r,WJ));cols=J}
+ else if(H==2){s=[0,1,2,3,4];M=m2(s);T=M.map(r=>wm(r,WV));cols=V}
+ else{s=P3<0?P.map((_,i)=>i):[P3];M=m3(s);rows=J;gr=null;cols=V}
+ heat(el,{h:H,s,M,T,rows,cols,grp:gr,rk:H==3?'j':'p',ck:H==1?'j':'v'})}
+const lks=to=>to&&to.length?`<div class="lks">${to.map(p=>`<button class="lk" data-to="${p}">→ ${prName(p)}</button>`).join('')}</div>`:'';
+function renderList(){const L=SA.filter(x=>FL.t=='h'?x.h==FL.v:x.g==FL.v),g=FL.t=='g';
+ $('#hint').textContent=g?'Các câu dưới đây dựa trên nhiều heatmap. Di chuột vào câu, bảng bên trái sẽ tự chuyển sang heatmap tương ứng.':`${L.length} câu phân tích dựa trên heatmap ${HN[FL.v]}.`;
+ $('#ins').innerHTML=L.map(x=>`<li data-id="${x.id}"><div class="lh"><em>${x.id}</em><b>${x.t}</b></div>${g?`<span class="tg">${HN[x.h]}</span>`:''}<span>${x.s}</span>${x.sub?`<div class="sbs">${x.sub.map(y=>`<div class="sb" data-id="${y.id}"><b>${y.t}</b><i>${y.m}</i><span>${y.s}</span>${lks(y.to)}</div>`).join('')}</div>`:''}${lks(x.to)}</li>`).join('')}
+function chips(){$$('#hsg button').forEach(b=>{const h=+b.dataset.h;b.classList.toggle('on',FL.t=='h'&&FL.v==h);b.classList.toggle('cur',FL.t=='g'&&H==h)});
+ $$('#fsg button').forEach(b=>b.classList.toggle('on',FL.t=='g'&&FL.v==b.dataset.g));
+ $('#psw').hidden=H!=3;$$('#psg button').forEach(b=>b.classList.toggle('on',+b.dataset.p==P3));
+ $('#hmd').textContent=PN[H];$('#pdesc').textContent=P3<0?'Trung bình điểm của cả 9 sản phẩm.':POS[P3]}
+function markPin(){$$('#ins [data-id]').forEach(x=>x.classList.toggle('act',x.dataset.id==pin))}
+function apply(id){const it=IDX[id];if(!it)return;let re=0;if(it.h!=H){H=it.h;re=1}if(it.h==3&&it.p3!=null&&it.p3!=P3){P3=it.p3;re=1}if(re){drawHeat();chips()}lit($('#hm'),it.e)}
+function drawAll(){drawHeat();renderList();chips();markPin();if(pin)apply(pin)}
+$('#hsg').onclick=e=>{const b=e.target.closest('button');if(!b)return;H=+b.dataset.h;FL={t:'h',v:H};pin=null;drawAll()};
+$('#fsg').onclick=e=>{const b=e.target.closest('button');if(!b)return;FL=FL.t=='g'&&FL.v==b.dataset.g?{t:'h',v:H}:{t:'g',v:b.dataset.g};pin=null;drawAll()};
+$('#psg').onclick=e=>{const b=e.target.closest('button');if(!b)return;P3=+b.dataset.p;drawHeat();chips();const it=pin&&IDX[pin];if(it&&it.h==3&&(it.p3==null||it.p3==P3))lit($('#hm'),it.e)};
+const ins=$('#ins');
+ins.addEventListener('mouseover',e=>{if(e.target.closest('.lk'))return;const it=e.target.closest('[data-id]');if(it&&it.dataset.id!==hov){hov=it.dataset.id;apply(hov)}});
+ins.addEventListener('mouseleave',()=>{hov=null;pin?apply(pin):lit($('#hm'),null)});
+ins.addEventListener('click',e=>{const k=e.target.closest('.lk');if(k){goProp(k.dataset.to);return}const it=e.target.closest('[data-id]');if(!it)return;const id=it.dataset.id;pin=pin==id?null:id;markPin();pin?apply(pin):lit($('#hm'),null);if(pin&&innerWidth<=960)$('#hm').scrollIntoView({block:'center',behavior:'smooth'})});
+drawAll();
+
+// ===== Phân tích: SEO =====
+const SM=['T4','T5','T6','T7','T8','T9'],SS=[['DNSE',[10834,31861,21971,23338,17680,29134],[2012,3169]],['VPS',[117449,154320,135501,124532,126968,105531],[2943,2513]],['TCBS',[5579,13417,11228,19383,41334,58769],[209,295]],['VNDirect',[9652,12726,18873,37798,13659,20896],[1343,708]]];
+const nf=x=>x.toLocaleString('vi-VN'),pc=(a,b)=>{const x=(b/a-1)*100;return(x>0?'+':'')+x.toFixed(1).replace('.',',')+'%'};
+let SMd=0,SF=-1,SPin=-1;
+$('#kpis').innerHTML=[['29.134','Organic traffic T9','~1/3,6 VPS · ~1/2 TCBS','t'],['+168,9%','Tăng trưởng traffic T4 → T9','T8 → T9: +64,8%','g'],['3.169','Organic keywords T9','Từ 2.012 ở T4 (+57,5%)','k'],['#8','Hạng từ khoá “Bảng giá chứng khoán”','Ngoài top 5 · 26/10/2026','r']].map(([b,s,m,k])=>`<div class="kpi" data-kp="${k}"><b>${b}</b><span>${s}</span><small>${m}</small></div>`).join('');
+$('#slg').innerHTML=SS.map((s,k)=>`<button data-p="${k}" style="--c:${CV[k]}"><i style="background:${CV[k]}"></i>${s[0]}</button>`).join('');
+function drawSEO(){const W=640,Hh=300,l=52,r=78,t=16,b=30,f=k=>SF>=0&&SF!=k?.15:1;let g='';
+ if(SMd==0){const x=i=>l+i*(W-l-r)/5,y=v=>t+(1-v/160000)*(Hh-t-b);
+  [0,40000,80000,120000,160000].forEach(v=>g+=`<line class="gx" x1="${l}" x2="${W-r}" y1="${y(v)}" y2="${y(v)}"/><text x="${l-8}" y="${y(v)+4}" text-anchor="end">${v/1000}K</text>`);
+  SM.forEach((m,i)=>g+=`<text x="${x(i)}" y="${Hh-8}" text-anchor="middle">${m}</text>`);
+  SS.forEach(([n,a],k)=>{const c=CV[k],me=k==0;g+=`<g opacity="${f(k)}"><polyline fill="none" stroke="${c}" stroke-width="${me?3:2}" stroke-linejoin="round" points="${a.map((v,i)=>[x(i),y(v)]).join(' ')}"/>`+a.map((v,i)=>`<circle cx="${x(i)}" cy="${y(v)}" r="${me?5:4}" fill="${c}" stroke="#fff" stroke-width="1.5" data-t="<b>${n}</b> · ${SM[i]}: ${nf(v)}"/>`).join('')+(SF==k?a.map((v,i)=>`<text class="vl" x="${x(i)}" y="${y(v)-10}" text-anchor="middle" fill="${c}">${(v/1000).toFixed(1).replace('.',',')}K</text>`).join(''):'')+`<text class="nm" x="${x(5)+10}" y="${y(a[5])+4}" fill="${c}">${n}</text></g>`})}
+ else{const x=v=>l+40+v/3500*(W-l-r-40),rowY=k=>t+30+k*58;
+  [0,1000,2000,3000].forEach(v=>g+=`<line class="gx" x1="${x(v)}" x2="${x(v)}" y1="${t}" y2="${Hh-b}"/><text x="${x(v)}" y="${Hh-8}" text-anchor="middle">${nf(v)}</text>`);
+  SS.forEach(([n,,kw],k)=>{const c=CV[k],yy=rowY(k),[a,z]=kw;g+=`<g opacity="${f(k)}"><text class="nm" x="${l+30}" y="${yy+4}" text-anchor="end" fill="${c}">${n}</text><line x1="${x(a)}" x2="${x(z)}" y1="${yy}" y2="${yy}" stroke="${c}" stroke-width="3" stroke-opacity=".45"/><circle cx="${x(a)}" cy="${yy}" r="5" fill="#fff" stroke="${c}" stroke-width="2" data-t="<b>${n}</b> · keywords T4: ${nf(a)}"/><circle cx="${x(z)}" cy="${yy}" r="6" fill="${c}" stroke="#fff" stroke-width="1.5" data-t="<b>${n}</b> · keywords T9: ${nf(z)}"/><text class="vl" x="${x(z)+(z>a?12:-12)}" y="${yy+4}" text-anchor="${z>a?'start':'end'}" fill="${c}">${pc(a,z)}</text></g>`});
+  g+=`<text x="${W-r}" y="${t+6}" text-anchor="end">○ T4 · ● T9</text>`}
+ $('#seo').innerHTML=g;$$('#ssg button').forEach(b=>b.classList.toggle('on',+b.dataset.m==SMd));$$('#slg button').forEach(b=>b.classList.toggle('on',+b.dataset.p==SF))}
+const SI=[{p:0,m:0,k:'g',t:`DNSE tăng trưởng organic traffic 168,9% trong 6 tháng`,s:`Số lượng organic keywords tăng 57,5%. Traffic có biến động theo tháng nhưng phục hồi mạnh trong T9, tăng 64,8% so với T8.`},
+{p:2,m:0,t:`TCBS tăng trưởng nhanh nhất`,s:`Từ 5,6K lên 58,8K organic traffic. Đà tăng tập trung rõ rệt từ T7–T9.`},
+{p:1,m:0,t:`VPS dẫn đầu về quy mô SEO`,s:`Đạt 105,5K traffic trong T9, nhưng giảm 10,1% so với T4 và giảm 16,9% so với T8.`},
+{p:3,m:1,t:`VNDirect tăng traffic nhưng giảm độ phủ từ khóa`,s:`Organic traffic tăng 116,5% trong khi organic keywords giảm 47,3%, cho thấy cần kiểm tra mức độ tập trung traffic vào các từ khóa còn lại.`},
+{p:0,m:0,k:'r',t:`DNSE xếp hạng 8 với từ khoá “Bảng giá chứng khoán”`,s:`Thứ hạng 8 vẫn nằm ngoài top 5, nên cơ hội tăng khả năng hiển thị và thu hút organic traffic từ nhóm từ khóa cốt lõi còn đáng kể.`}];
+$('#sins').innerHTML=SI.map((x,i)=>`<li data-si="${i}"><b>${x.t}</b><span>${x.s}</span></li>`).join('');
+function seoFocus(i){const x=SI[i];$$('#kpis .kpi').forEach(k=>k.classList.toggle('gl',!!x&&k.dataset.kp==x.k));if(!x){SF=-1;drawSEO();return}SF=x.p;SMd=x.m;drawSEO()}
+const sins=$('#sins');
+sins.addEventListener('mouseover',e=>{const li=e.target.closest('li');if(li)seoFocus(+li.dataset.si)});
+sins.addEventListener('mouseleave',()=>seoFocus(SPin));
+sins.addEventListener('click',e=>{const li=e.target.closest('li');if(!li)return;const i=+li.dataset.si;SPin=SPin==i?-1:i;$$('#sins li').forEach(x=>x.classList.toggle('act',+x.dataset.si==SPin));seoFocus(SPin)});
+$('#ssg').onclick=e=>{const b=e.target.closest('button');if(b){SMd=+b.dataset.m;drawSEO()}};
+$('#slg').onmouseover=e=>{const b=e.target.closest('button');if(b){SF=+b.dataset.p;drawSEO()}};$('#slg').onmouseleave=()=>seoFocus(SPin);
+drawSEO();
+
+// ===== Phân tích: so sánh 2024 =====
+const C24=[['Nhận định chung','','',`Bảng giá DNSE đơn giản, nhanh, minh bạch, hợp người mới. Tính năng và luồng dùng còn hạn chế cho nhà đầu tư bán chuyên/chuyên nghiệp.`,`Điểm yếu về luồng dùng năm 2024 đã được giải quyết: DNSE nay thuộc nhóm thuận tiện và dẫn dắt tốt nhất trong nước. Điểm yếu mới là độ đa dạng và độ hữu dụng của thông tin, nhất là ở Phân tích thị trường và Khám phá mã.`],
+['Đa dạng','warn','Vẫn còn hạn chế',`Tính năng hạn chế so với SSI, TCBS (2 bên mạnh nhất về tính năng).`,`Xếp thứ 4/5 trong nước. Đã có: bộ lọc tự tạo, 8 bộ lọc mẫu, biểu đồ nhiệt ngành → mã, ý tưởng đầu tư, ENSA, backtest. Còn thiếu so với đối thủ: cảnh báo (7/9 sản phẩm đã có), mới có 3 bảng xếp hạng (VPS 12, VNDirect 10), chưa có dữ liệu dòng tiền khối ngoại/tự doanh cấp thị trường.`,0],
+['Hữu dụng','bad','Điểm yếu mới',`Có nhiều tính năng hữu ích. FireAnt mạnh nhất góc này.`,`Xếp thứ 4/5 trong nước (đứng đầu là TCBS; xếp cuối là Siêu cổ phiếu), thấp hơn cả 4 sản phẩm quốc tế (3,3–4,3). Không có job nào DNSE đạt từ 4 điểm hữu dụng trở lên. Điểm hụt: ENSA chưa diễn giải nguyên nhân; biểu đồ nhiệt cấp mã không hiện giá trị; khung xem nhanh mã chưa có lớp nhận định; bảng xếp hạng chỉ có tăng/giảm/khối lượng, chưa cho biết vì sao mã biến động.`,1],
+['Thuận tiện','ok','Đã khắc phục',`Luồng chưa hợp thói quen: tab menu không có ô tìm kiếm, tin tức/khuyến nghị nằm ngoài bảng giá, không có bảng tổng hợp chỉ số, không tuỳ chỉnh hiển thị/sắp xếp mã. SSI mạnh nhất góc này.`,`Xếp thứ 2 trong nước sau TCBS (4,0), hơn rõ VPS (3,2) và VNDirect (3,0). Các điểm 2024 chỉ ra cần bổ sung nay đã có trên bảng giá. Điểm cộng: card chỉ số tùy biến, ENSA có lối vào cố định trên header, bảng xếp hạng/bộ lọc/tìm kiếm đều trong 2 bước, backtest có mức gợi ý sẵn và tooltip.`,2],
+['Thúc đẩy','new','Lần đầu đánh giá',`Chưa đánh giá.`,`Xếp thứ 2 trong nước sau TCBS, hơn rõ VPS và VNDirect, Siêu cổ phiếu xếp cuối. Từ ngành, bảng xếp hạng, bộ lọc đều mở được khung xem nhanh mã; từ đó đi tiếp sang đặt lệnh, backtest, thêm danh mục. Còn thiếu: cảnh báo để kéo người dùng quay lại; ENSA đang dẫn sang mở tài khoản và chi tiết mã chưa promote các tính năng khác.`,3]];
+(()=>{const M=m2([0,1,2,3,4]);$('#rk24').innerHTML=V.map((n,v)=>{const s=M[0][v],r=1+VN.filter(p=>M[p][v]>s+1e-9).length;return`<div class="kpi" data-cv="${v}" style="box-shadow:inset 4px 0 0 ${col(s)}"><b style="color:var(--ink)">${fmt(s)}</b><span>${n}</span><small>Hạng ${r}/5 trong nước</small></div>`}).join('');
+ $('#cmp').innerHTML=`<div class="cmp hd2"><span></span><span class="yr">NGHIÊN CỨU 2024</span><span></span><span class="yr">AUDIT 2026</span></div>`+C24.map(([n,c,bt,a,z,v])=>`<div class="cmp"${v!=null?` data-cv="${v}"`:''}><div><h4>${n}</h4>${c?`<span class="bd ${c}">${bt}</span>`:''}</div><div><p>${a}</p></div><div class="ar">→</div><div class="y26"><p>${z}</p></div></div>`).join('');
+ $('#chk').innerHTML=['Tìm kiếm mã','Khuyến nghị','Tin thị trường','Dải chỉ số','Sắp xếp & lọc nhanh','Tuỳ biến bảng'].map(x=>`<span>${x}</span>`).join('');
+ const pa3=$('#pa3');pa3.addEventListener('mouseover',e=>{const t=e.target.closest('[data-cv]'),v=t?t.dataset.cv:null;$$('[data-cv]',pa3).forEach(x=>x.classList.toggle('gl',v!=null&&x.dataset.cv==v))});pa3.addEventListener('mouseleave',()=>$$('[data-cv]',pa3).forEach(x=>x.classList.remove('gl')))})();
+
+// ===== Đề xuất =====
+const evb=ids=>`<div class="evs">Bằng chứng: ${ids.map(i=>`<button class="ev" data-ev="${i}" title="${(IDX[i]||{}).t||''}">${i.replace(/[a-d]$/,m=>' · '+(IDX[i].t))}</button>`).join('')}</div>`;
+const POSQ=[{h:'Câu hỏi 1',q:'Là sản phẩm hỗ trợ nhu cầu nào cho nhà đầu tư tối ưu nhất?',a:'Khám phá có lý do',ld:'Đầu phễu (Phân tích thị trường, Khám phá mã) chiếm 45% trọng số và là chỗ DNSE yếu nhất. Phía sau, DNSE đã có sẵn luồng chuyển đổi tốt sang đặt lệnh, backtest, theo dõi.',
+ y:[[`Chọn khám phá làm job dẫn dắt, như Finviz chọn bộ lọc làm điểm nhấn (Khám phá mã 4,75).`,['1.3','1.5']],[`Mọi lối khám phá kết thúc ở một hành động: xem nhanh → đặt lệnh, backtest hoặc theo dõi, tận dụng thế mạnh Thúc đẩy 3,8.`,['1.6']],[`Đưa dòng tiền, khối ngoại/tự doanh vào làm ngữ cảnh cho active trader, luôn kèm 1 câu diễn giải.`,['2.4a']]],
+ n:[[`Đua số lượng bảng xếp hạng, bộ lọc với VPS (12 bảng xếp hạng) hay TCBS.`,['2.5b']],[`Tiếp tục làm đều cả 5 stage mà không có điểm nhấn để người dùng nhớ tới.`,['1.3','2.1']],[`Để ENSA chủ yếu dẫn sang mở tài khoản thay vì sang lọc mã, theo dõi.`,['2.5d']]]},
+{h:'Câu hỏi 2',q:'Cần hỗ trợ nhà đầu tư mới, Gen Z tốt hơn như thế nào?',a:'Kết luận trước, số liệu sau, bước tiếp theo luôn rõ',ld:'DNSE đã hợp người mới về thao tác (Thuận tiện 3,8), nhưng chưa có việc nào đạt 4 điểm hữu dụng.',
+ y:[[`Diễn giải “vì sao tăng/giảm” ngay tại dòng mã và khung xem nhanh, như Toss (Hữu dụng 3,9 dù Đa dạng chỉ 3,5).`,['2.2','2.5a']],[`Gợi ý mã luôn kèm lý do; điểm số nào cũng có 1 câu giải thích cách tính.`,['1.4']],[`Cảnh báo có mẫu sẵn để người mới có lý do quay lại.`,['2.4c']]],
+ n:[[`Đổ dashboard dày lên người mới, như TCBS, VPS.`,['2.5b']],[`Hiện điểm số không giải thích cách tính (bài học từ Siêu cổ phiếu).`,['2.4a']],[`Đặt tính năng giá trị sâu trong menu; để người dùng xem xong mà không biết bước tiếp theo.`,['1.4']]]}];
+const QS=[0,0];
+function drawPos(){$('#posg').innerHTML=POSQ.map((x,i)=>`<div class="qb"><h4>${x.h} · ${x.q}</h4><h3>→ ${x.a}</h3><p class="ld">${x.ld}</p><div class="seg" data-q="${i}"><button data-s="0" class="${QS[i]?'':'on'}">Nên làm</button><button data-s="1" class="${QS[i]?'on':''}">Tránh</button></div>${(QS[i]?x.n:x.y).map(([t,ev])=>`<div class="pi${QS[i]?' no':''}"><i>${QS[i]?'✕':'✓'}</i><div>${t}${evb(ev)}</div></div>`).join('')}</div>`).join('')}
+$('#posg').onclick=e=>{const b=e.target.closest('.seg button');if(b){QS[+b.closest('.seg').dataset.q]=+b.dataset.s;drawPos()}};drawPos();
+$('#atr').innerHTML=`<p><b>Với active trader:</b> mặc định giao diện gọn, ai cần thì tự mở thêm chiều sâu (dòng tiền, tín hiệu). Công cụ chuyên sâu tách thành bảng giá chuyên nghiệp riêng để V2 không bị rối, xem <button class="lk" data-to="pro">→ ${PR.pro.t}</button></p>${evb(['2.3'])}`;
+(()=>{const M=m1([0,1,2,3]);$('#jm').innerHTML=J.map((n,j)=>{const s=M[0][j],r=1+VN.filter(p=>M[p][j]>s+1e-9).length;
+ return`<div class="jc"><div class="jh" style="background:${col(s)}" data-k="j${j}"><b>${n}</b><div class="sv">${fmt(s)}</div><span>DNSE · hạng ${r}/5 trong nước · trọng số ${WJ[j]*100}%</span></div>`+Object.entries(PR).filter(([,x])=>x.j===j).map(([k,x])=>`<div class="prc" id="pr-${k}" data-pri="${x.pri}" data-k="q${k}"><span class="pr ${x.pri}">${x.pri}</span><h4>${x.t}</h4><p class="ac">${x.act}</p>${x.also?`<p class="rl">Cũng phục vụ: ${x.also}</p>`:''}${evb(x.ev)}</div>`).join('')+`</div>`}).join('')})();
+$('#prsg').onclick=e=>{const b=e.target.closest('button');if(!b)return;$$('#prsg button').forEach(x=>x.classList.toggle('on',x==b));$$('#jm .prc').forEach(c=>c.classList.toggle('dim',b.dataset.p!='all'&&c.dataset.pri!=b.dataset.p))};
+$('#evg').innerHTML=['community','pro'].map(k=>{const x=PR[k];return`<div class="evc" id="pr-${k}"><div><span class="pr LOW">LOW</span></div><h4>${x.t}</h4><p><b>Vì sao, và cần kiểm chứng gì:</b> ${x.why}</p><p><b>Tài nguyên có sẵn:</b> ${x.have}</p><p><b>Tham khảo:</b> ${x.ref}</p><p><b>Vai trò:</b> ${x.role}</p>${evb(x.ev)}</div>`}).join('');
+
+// ===== Điều hướng =====
+const LBL={method:'Phương pháp',overview:'Đề xuất',a1:'Chấm điểm đối thủ',a2:'SEO',a3:'So sánh 2024'},TAB={m:'method',o:'overview'};
+let last='a1',cur='',hist=[];
+function show(t){t={h1:'a1',h2:'a1',h3:'a1'}[t]||t;t=/^a[123]$/.test(t)||t=='overview'?t:'method';cur=t;const d=/^a/.test(t);if(d)last=t;
  $('#mt').hidden=t!='method';$('#ov').hidden=t!='overview';$('#dt').hidden=!d;
- $$('.bar nav button').forEach(b=>b.classList.toggle('on',b.dataset.tab=='d'?d:TAB[b.dataset.tab]==t));$$('#sub button').forEach(b=>b.classList.toggle('on',b.dataset.sub==last));$$('.pn').forEach(x=>x.hidden=x.id!='p'+last[1]);
+ $$('.bar nav button').forEach(b=>b.classList.toggle('on',b.dataset.tab=='d'?d:TAB[b.dataset.tab]==t));$$('#sub button').forEach(b=>b.classList.toggle('on',b.dataset.sub==last));$$('#dt .pn').forEach(x=>x.hidden=x.id!='p'+last);
  const bk=$('#back'),h=hist[hist.length-1];bk.hidden=!h;if(h)bk.textContent='← '+LBL[h.t];tip.hidden=true;scrollTo(0,0);try{history.replaceState(null,'','#'+t)}catch(e){}}
 function go(t){if(t==cur)return;hist.push({t:cur,y:scrollY});if(hist.length>30)hist.shift();show(t)}
+function goEv(id){const it=IDX[id];if(!it)return;go('a1');H=it.h;if(it.p3!=null)P3=it.p3;FL={t:'h',v:H};pin=id;drawAll();
+ setTimeout(()=>{const el=$(`#ins [data-id="${id}"]`);if(el){el.scrollIntoView({block:'center',behavior:'smooth'});el.classList.add('pulse');setTimeout(()=>el.classList.remove('pulse'),2300)}},60)}
+function goProp(p){go('overview');setTimeout(()=>{const el=$('#pr-'+p);if(el){el.classList.remove('dim');el.scrollIntoView({block:'center',behavior:'smooth'});el.classList.add('pulse');setTimeout(()=>el.classList.remove('pulse'),2300)}},60)}
 $('#back').onclick=()=>{const h=hist.pop();if(h){show(h.t);scrollTo(0,h.y)}};
 $('.bar nav').onclick=e=>{const b=e.target.closest('button');if(b)go(b.dataset.tab=='d'?last:TAB[b.dataset.tab])};
 $('#sub').onclick=e=>{const b=e.target.closest('button');if(b)go(b.dataset.sub)};
-$('#ov .go').onclick=()=>go(RAD[0].mode?'h2':'h1');
-document.addEventListener('click',e=>{const a=e.target.closest('.cta');if(a){e.preventDefault();go('overview');return}
- if(e.target.closest('.lg'))return;if(e.target.closest('#s3'))go('h1');else if(e.target.closest('#s4a,#s4b'))go('overview')});
-addEventListener('hashchange',()=>{const t=location.hash.slice(1);if(/^(method|overview|h[123])$/.test(t))show(t)});show(location.hash.slice(1));
+document.addEventListener('click',e=>{const a=e.target.closest('.cta');if(a){e.preventDefault();go(a.dataset.goto);return}
+ const v=e.target.closest('.ev');if(v){goEv(v.dataset.ev);return}
+ const k=e.target.closest('#ov .lk');if(k){goProp(k.dataset.to);return}
+ if(e.target.closest('.lg'))return;if(e.target.closest('#s3,#s4a,#s4b'))go('a1')});
+addEventListener('hashchange',()=>{const t=location.hash.slice(1);if(/^(method|overview|a[123])$/.test(t))show(t)});show(location.hash.slice(1));
+
 </script></body></html>
