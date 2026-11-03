@@ -70,7 +70,8 @@ table.hm{border-collapse:separate;border-spacing:3px;width:100%;min-width:480px}
 .chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:10px}.chips span{font-size:11.5px;background:var(--bg);border-radius:40px;padding:2px 9px;color:var(--ink2)}.chips span b{color:var(--brand)}
 .two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
 @media(max-width:640px){.two{grid-template-columns:minmax(0,1fr)}}
-.two svg.rd{max-width:390px}.two .al{font-size:19px}.two h4{margin:0 0 2px;font-size:13px;text-align:center;color:var(--ink2);font-weight:600}
+.two svg.rd{max-width:420px}.two .al{font-size:20px}.two h4{margin:0 0 2px;font-size:13px;text-align:center;color:var(--ink2);font-weight:600}
+.cta{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;background:var(--brand);color:#fff;border-radius:18px;padding:20px 24px;text-decoration:none}.cta:hover{background:var(--brand-d)}.cta b{display:block;font-size:16px}.cta span{display:block;font-size:13px;color:#ffffffc7;margin-top:2px}.cta em{font-style:normal;font-weight:600;background:#fff;color:var(--brand);border-radius:40px;padding:9px 18px;white-space:nowrap}#s3,#s4a,#s4b{cursor:pointer}
 .grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;align-items:start}
 @media(max-width:960px){.grid{grid-template-columns:minmax(0,1fr)}}
 .stack{display:grid;gap:16px}.tb{margin-bottom:14px}
@@ -107,7 +108,8 @@ ul.in{margin:0;padding:0}
  <div class="step"><div class="sl"><div class="no">3</div><div><h2>Chấm điểm</h2><p><b>Làm gì:</b> Đối chiếu ghi nhận với chuẩn, chấm từng ô từ 1 đến 5, kèm lý do.</p><p><b>Để làm gì:</b> Thấy ngay sản phẩm nào mạnh, yếu ở bước nào.</p></div></div>
   <div class="sr"><div class="hmw" id="s3"></div><div class="scale">1 <b></b> 5</div></div></div>
  <div class="step"><div class="sl"><div class="no">4</div><div><h2>Tổng hợp</h2><p><b>Làm gì:</b> Cộng điểm theo trọng số, ưu tiên khám phá mã, đánh giá mã, độ hữu dụng và thuận tiện.</p><p><b>Để làm gì:</b> Thấy hình dạng năng lực của từng sản phẩm, từ đó biết DNSE cần bổ sung gì và nên học ai.</p><div class="chips"><span>Khám phá mã <b>30%</b></span><span>Đánh giá 1 mã <b>25%</b></span><span>Hữu dụng <b>30%</b></span><span>Thuận tiện <b>30%</b></span></div></div></div>
-  <div class="sr two"><div><h4>Trong nước</h4><svg class="rd" id="s4a" viewBox="0 0 560 440"></svg><div class="lg" id="s4al"></div></div><div><h4>Quốc tế</h4><svg class="rd" id="s4b" viewBox="0 0 560 440"></svg><div class="lg" id="s4bl"></div></div></div></div>
+  <div class="sr two"><div><h4>Trong nước</h4><svg class="rd" id="s4a" viewBox="-60 0 680 440"></svg><div class="lg" id="s4al"></div></div><div><h4>Quốc tế</h4><svg class="rd" id="s4b" viewBox="-60 0 680 440"></svg><div class="lg" id="s4bl"></div></div></div></div>
+  <a class="cta" href="#" data-goto="overview"><div><b>Xem đề xuất cho Bảng giá DNSE</b><span>7 hướng ưu tiên, 2 hướng cần đánh giá thêm, rút ra từ kết quả chấm điểm.</span></div><em>Xem đề xuất →</em></a>
 </section>
 <div id="ov" hidden>
  <div class="ctl tb"><div class="seg" id="rsg"><button class="on" data-v="0">Theo Job</button><button data-v="1">Theo góc nhìn</button></div><button class="go">Xem phân tích →</button></div>
@@ -278,5 +280,7 @@ $('#back').onclick=()=>{const h=hist.pop();if(h){show(h.t);scrollTo(0,h.y)}};
 $('.bar nav').onclick=e=>{const b=e.target.closest('button');if(b)go(b.dataset.tab=='d'?last:TAB[b.dataset.tab])};
 $('#sub').onclick=e=>{const b=e.target.closest('button');if(b)go(b.dataset.sub)};
 $('#ov .go').onclick=()=>go(RAD[0].mode?'h2':'h1');
+document.addEventListener('click',e=>{const a=e.target.closest('.cta');if(a){e.preventDefault();go('overview');return}
+ if(e.target.closest('.lg'))return;if(e.target.closest('#s3'))go('h1');else if(e.target.closest('#s4a,#s4b'))go('overview')});
 addEventListener('hashchange',()=>{const t=location.hash.slice(1);if(/^(method|overview|h[123])$/.test(t))show(t)});show(location.hash.slice(1));
 </script></body></html>
